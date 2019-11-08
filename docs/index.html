@@ -7,18 +7,58 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app">加载中...</div>
   <script>
+    // 评论参数
+    var gitalkConfig = {
+      clientID: 'db6f91b196ccef7297ce',
+      clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
+      repo: 'Blog', // 存储你评论 issue 的 Github 仓库名
+      owner: 'amujoe',
+      admin: ["amujoe"], // 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
+      distractionFreeMode: false
+    };
+
     window.$docsify = {
       name: '抒情小说',
       repo: '',
       coverpage: true, // 封面图配置
       loadNavbar: true, // 导航配置
-      loadSidebar: true // 侧边导航
+      loadSidebar: true, // 侧边导航
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function() {
+            var label, domObj, main, divEle, gitalk;
+            label = vm.route.path.split("/").pop();
+            domObj = Docsify.dom;
+            main = domObj.getNode("#main");
+
+            Array.apply(
+              null,
+              document.querySelectorAll("div.gitalk-container")
+            ).forEach(function(ele) {
+              ele.remove();
+            });
+
+            divEle = domObj.create("div");
+            divEle.id = "gitalk-container-" + label;
+            divEle.className = "gitalk-container";
+            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
+            domObj.appendTo(domObj.find(".content"), divEle);
+            gitalk = new Gitalk(
+              Object.assign(gitalkConfig, { id: !label ? "home" : label })
+            );
+            gitalk.render("gitalk-container-" + label);
+          });
+        }
+      ]
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
+  <script src="./lib/docsify.js"></script>
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
 </body>
 </html>
