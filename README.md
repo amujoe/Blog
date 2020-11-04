@@ -1,3 +1,4 @@
+```JSON
 {
   project: 'Blog',
   author: 'amujoe',
@@ -6,3 +7,4 @@
     run: "docsify serve docs"
   }
 }
+```

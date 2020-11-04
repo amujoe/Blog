@@ -17,14 +17,14 @@
       clientID: 'db6f91b196ccef7297ce',
       clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
       repo: 'Blog', // 存储你评论 issue 的 Github 仓库名
-      owner: 'amujoe',
+      owner: 'amujoe', // 仓库所有者
       admin: ["amujoe"], // 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
       distractionFreeMode: false
     };
 
     window.$docsify = {
-      name: '抒情小说',
-      repo: '',
+      name: '油腻大叔的开发手册', // 文章标题
+      repo: 'https://github.com/amujoe', // 配置仓库地址, 页面右上角渲染一个github 挂件
       coverpage: true, // 封面图配置
       loadNavbar: true, // 导航配置
       loadSidebar: true, // 侧边导航
@@ -52,6 +52,19 @@
               Object.assign(gitalkConfig, { id: !label ? "home" : label })
             );
             gitalk.render("gitalk-container-" + label);
+          });
+        },
+        function(hook) {
+          var footer = [
+            '<hr/>',
+            '<footer>',
+            '<span><a href="http//amujoe.top">amojoe.top</a> &copy;2017.</span>',
+            '<span>The author is <a href="https://github.com/amujoe" target="_blank">amujoe</a></span>',
+            '</footer>'
+          ].join('');
+
+          hook.afterEach(function(html) {
+            return html + footer;
           });
         }
       ]
