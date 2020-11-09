@@ -12,11 +12,17 @@
   * [指北手册](./main/git/git01.md)
   * [分支命名、推送](./main/git/git02.md)
   * [深入浅出四大环境](./main/git/git03.md)
-* [vue3.0](./main/vue/vue3-01.md)
+* vue3
+   * [开始](./main/vue/vue3-01.md)
+   * [插槽的使用](./main/vue/vue3-02.md)
+   * ​
 * TypeScripe
    * [简述](./main/ts/ts01.md)
+   * [基础类型](./main/ts/ts02.md)
+   * [接口](./main/ts/ts03.md)
    * [函数](./main/ts/ts02.md)
-* [markdown](./main/markdown/md01.md)
+* Markdown
+   * [简介](./main/markdown/md01.md)
    * [基础语法](./main/markdown/md02.md)
    * [表格](./main/markdown/md03.md)
 * 网站
