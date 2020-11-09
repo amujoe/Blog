@@ -13,6 +13,9 @@
   * [分支命名、推送](./main/git/git02.md)
   * [深入浅出四大环境](./main/git/git03.md)
 * [vue3.0](./main/vue/vue3-01.md)
+* TypeScripe
+   * [简述](./main/ts/ts01.md)
+   * [函数](./main/ts/ts02.md)
 * [markdown](./main/markdown/md01.md)
    * [基础语法](./main/markdown/md02.md)
    * [表格](./main/markdown/md03.md)
