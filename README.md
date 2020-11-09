@@ -1,4 +1,4 @@
-```JSON
+```js
 {
   project: 'Blog',
   author: 'amujoe',

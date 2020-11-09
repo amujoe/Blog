@@ -15,4 +15,4 @@
 - 淡泊于名利
 
 [GitHub](https://github.com/amujoe/Blog)
-[Get Started](#docsify)
+[Get Started](#/README)
