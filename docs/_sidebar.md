@@ -2,11 +2,13 @@
 
 * [写在开头](./main/other/first.md)
 * 小程序的那些事
+  * [小程序](./main/miniprogram/mini00.md)
   * [模版消息升级](./main/miniprogram/mini01.md)
   * [分享朋友圈](./main/miniprogram/mini02.md)
   * [小程序 tabbar 页面建议用缓存](./main/miniprogram/mini04.md)
   * [小程序单页面自定义导航栏](./main/miniprogram/mini03.md)
   * [分包加载](./main/miniprogram/mini05.md)
+  * [模拟京东非淘宝的sku选择](./main/miniprogram/mini06.md)
 * 开发手册
   * [git](./main/git/git00.md)
   * [指北手册](./main/git/git01.md)
