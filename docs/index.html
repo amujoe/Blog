@@ -5,73 +5,47 @@
   <title>Document</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- 评论js -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- 评论js end -->
+  <!-- 搜索 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 搜索 end-->
 </head>
 <body>
-  <div id="app">加载中...</div>
+  <div id="app"></div>
   <script>
-    // 评论参数
-    var gitalkConfig = {
-      clientID: 'db6f91b196ccef7297ce',
-      clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
-      repo: 'Blog', // 存储你评论 issue 的 Github 仓库名
-      owner: 'amujoe', // 仓库所有者
-      admin: ["amujoe"], // 这个仓库的管理员，可以有多个，用数组表示，一般写自己,
-      distractionFreeMode: false
-    };
-
+    const gitalk = new Gitalk({
+       clientID: 'db6f91b196ccef7297ce',
+       clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
+       repo: 'Blog',
+       owner: 'amujoe',
+       admin: ['amujoe'],
+       // facebook-like distraction free mode
+       distractionFreeMode: false
+     })
+     
     window.$docsify = {
       name: '油腻大叔的开发手册', // 文章标题
       repo: 'https://github.com/amujoe', // 配置仓库地址, 页面右上角渲染一个github 挂件
       coverpage: true, // 封面图配置
       loadNavbar: true, // 导航配置
-      loadSidebar: true, // 侧边导航
-      plugins: [
-        function (hook, vm) {
-          hook.doneEach(function() {
-            var label, domObj, main, divEle, gitalk;
-            label = vm.route.path.split("/").pop();
-            domObj = Docsify.dom;
-            main = domObj.getNode("#main");
-
-            Array.apply(
-              null,
-              document.querySelectorAll("div.gitalk-container")
-            ).forEach(function(ele) {
-              ele.remove();
-            });
-
-            divEle = domObj.create("div");
-            divEle.id = "gitalk-container-" + label;
-            divEle.className = "gitalk-container";
-            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-            domObj.appendTo(domObj.find(".content"), divEle);
-            gitalk = new Gitalk(
-              Object.assign(gitalkConfig, { id: !label ? "home" : label })
-            );
-            gitalk.render("gitalk-container-" + label);
-          });
-        },
-        function(hook) {
-          var footer = [
-            '<hr/>',
-            '<footer>',
-            '<span><a href="http//amujoe.top">amojoe.top</a> &copy;2017.</span>',
-            '<span>The author is <a href="https://github.com/amujoe" target="_blank">amujoe</a></span>',
-            '</footer>'
-          ].join('');
-
-          hook.afterEach(function(html) {
-            return html + footer;
-          });
-        }
-      ]
+      loadSidebar: true, // 侧边导航 
+      subMaxLevel: 3, // h2、h3 自动生成侧边导航
+      alias: {
+        '/.*/main/_sidebar.md': '/_sidebar.md'
+      },
+      disqus: 'shortname' // 评论
     }
   </script>
-  <!-- <script src="//unpkg.com/docsify/lib/docsify.min.js"></script> -->
-  <script src="./lib/docsify.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
