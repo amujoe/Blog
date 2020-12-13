@@ -162,7 +162,7 @@ git fetch origin feature/v1.0.0
 
 
 
-### **垮库推送**
+### 跨库推送
 
 1. 定义目标库
 

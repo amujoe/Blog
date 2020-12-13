@@ -24,7 +24,7 @@
    * [简述](/main/ts/ts01.md)
    * [基础类型](/main/ts/ts02.md)
    * [接口](/main/ts/ts03.md)
-   * [函数](/main/ts/ts02.md)
+   * [函数](/main/ts/ts04.md)
 * Markdown
    * [简介](/main/markdown/md01.md)
    * [基础语法](/main/markdown/md02.md)
