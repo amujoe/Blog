@@ -11,7 +11,7 @@
   * [模拟京东非淘宝的sku选择](/main/miniprogram/mini06.md)
 * 小程序 · 云开发
    * [简述](/main/cloud/cloud01.md)
-* [常见问题](./QA/)
+* [常见问题](/QA/js-qa01.md)
 * git 开发手册
   * [git](/main/git/git00.md)
   * [指北手册](/main/git/git01.md)
