@@ -2,31 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>油腻大叔的开发手册</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- 评论js -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
   
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
   <!-- 评论js end -->
 </head>
 <body>
   <div id="app"></div>
+  
+  <!-- <div id="gitalk-container"></div> -->
+  
   <script>
-    const gitalk = new Gitalk({
-       clientID: 'db6f91b196ccef7297ce',
-       clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
-       repo: 'Blog',
-       owner: 'amujoe',
-       admin: ['amujoe'],
-       // facebook-like distraction free mode
-       distractionFreeMode: false
-     })
+    // const gitalk = new Gitalk({
+    //    clientID: 'db6f91b196ccef7297ce',
+    //    clientSecret: '1464ee9a292b210e1d31e0b0cb4f1b2cbade9608',
+    //    repo: 'Blog',
+    //    owner: 'amujoe',
+    //    admin: ['amujoe'],
+    //    // facebook-like distraction free mode
+    //    distractionFreeMode: false
+    //  })
+    //  gitalk.render('gitalk-container')
      
     window.$docsify = {
       name: '油腻大叔的开发手册', // 文章标题
@@ -38,13 +42,26 @@
       alias: {
         '/.*/main/_sidebar.md': '/_sidebar.md'
       },
-      disqus: 'shortname', // 评论
-      search: 'auto'
+      // disqus: 'shortname', // 评论
+      search: 'auto',
+      // ...
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'material', // 'classic'，'material'
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- search -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- copy -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- tab -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  
 </body>
 </html>

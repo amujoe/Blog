@@ -11,6 +11,11 @@
   * [模拟京东非淘宝的sku选择](/main/miniprogram/mini06.md)
 * 小程序 · 云开发
    * [简述](/main/cloud/cloud01.md)
+* canvas
+   * [canvas简述](/main/canvas/canvas01.md)
+   * [canvas入门之HelloWorld](/main/canvas/canvas02.md)
+   * [canvas基础之扫盲篇](/main/canvas/canvas03.md)
+   * [canvas动画之基础篇](/main/canvas/canvas04.md)
 * [常见问题](/QA/js-qa01.md)
 * git 开发手册
   * [git](/main/git/git00.md)
