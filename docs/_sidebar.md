@@ -15,7 +15,8 @@
    * [canvas简述](/main/canvas/canvas01.md)
    * [canvas入门之HelloWorld](/main/canvas/canvas02.md)
    * [canvas基础之扫盲篇](/main/canvas/canvas03.md)
-   * [canvas动画之基础篇](/main/canvas/canvas04.md)
+   * [canvas基础之绘制路径](/main/canvas/canvas04.md)
+   * [canvas动画之基础篇](/main/canvas/canvas05.md)
 * [常见问题](/QA/js-qa01.md)
 * git 开发手册
   * [git](/main/git/git00.md)

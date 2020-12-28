@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>canvas 之 helloworld</title>
+	</head>
+	<body>
+    
+    <canvas id="mycanvas" width="500" height="500"></canvas>
+       
+     <script>
+     const ctx = document.getElementById('mycanvas').getContext('2d');
+  
+      // 画一实心圆
+      ctx.beginPath();
+      ctx.arc(100, 100, 50, 0, Math.PI * 2, true); // 绘制
+      
+      // 画一个圆弧
+      ctx.moveTo(175, 100);
+      ctx.arc(100, 100, 75, 0, Math.PI, true);   // 口(顺时针)
+      
+      // 描边路径
+      ctx.stroke();
+      
+      ctx.beginPath();
+      ctx.strokeStyle = "rgba(40, 231, 50, 0.9)";
+      ctx.moveTo(100, 100);
+      ctx.lineTo(200, 100);
+      ctx.arcTo(250, 100, 250, 150, 50);
+      ctx.lineTo(250, 300);
+      ctx.stroke();
+      
+      // 描边路径
+      ctx.stroke();
+     </script>
+
+	</body>
+</html>

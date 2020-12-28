@@ -1,16 +1,16 @@
 # 一分钟入门之 HelloWorld
 
 
-实现一个canvas的两个要素
+实现 canvas 入门之灵魂篇 HelloWorld 的步骤:
 
-1. html 的标签
+1. **html 的标签**
 
    ```html
-   <!-- id 很重要, 也不知道为什么都喜欢起名为 mycanvas -->
-   <canvas id="mycanvas"></canvas>
+   <!-- id 很重要, 宽高如果不设置, 会默认 300*150px -->
+   <canvas id="mycanvas" width="150" height="150"></canvas>
    ```
 
-2. js 
+2. **js**
 
    ```js
    <script>
@@ -21,5 +21,5 @@
    </script>
    ```
 
-3. 找一个浏览器打开
+3. **找一个浏览器打开**
 
