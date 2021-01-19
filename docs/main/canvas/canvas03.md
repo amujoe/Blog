@@ -217,5 +217,52 @@ canvas 中分为: 圆形与圆弧
 
 ## 图片
 
+* 多用于动态的图像合成
+* 浏览器支持的任意格式的外部图片都可以使用
 
+**多种写法**
 
+第一种: 直接写入
+
+`context.drawImage(img,x,y);`
+
+第二种: 设定宽高
+
+`context.drawImage(img,x,y,width,height);`
+
+第三种: 可以裁剪
+
+`context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);`
+
+| 参数 | 描述 |
+|  ----  | ----  |
+| img	| 规定要使用的图像、画布或视频。
+| sx | 	可选。开始剪切的 x 坐标位置。
+| sy	| 可选。开始剪切的 y 坐标位置。
+| swidth	| 可选。被剪切图像的宽度。
+| height	| 可选。被剪切图像的高度。
+| x	| 在画布上放置图像的 x 坐标位置。
+| y	| 在画布上放置图像的 y 坐标位置。
+| width	| 可选。要使用的图像的宽度。（伸展或缩小图像）
+| height	| 可选。要使用的图像的高度。（伸展或缩小图像）
+
+```js
+
+  const ctx = document.getElementById('mycanvas').getContext('2d');
+   
+  // 内存中先加载，然后当内存加载完毕时，再把内存中的数据填充到我们的 dom元素中
+  var img = new Image();
+  img.onload = function(){
+   
+    // 将图片画到canvas上面上去！
+    ctx.drawImage(img, 350, 350);
+     
+    // 设置图像的宽高
+    ctx.drawImage(img, 50, 50, 200, 200);
+     
+    // 裁剪, 然后绘制
+    ctx.drawImage(img, 0, 0, 100, 100, 250, 250, 100, 100);
+  }
+  img.src= "https://alifei05.cfp.cn/creative/vcg/veer/800water/veer-167645584.jpg"
+
+```

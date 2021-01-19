@@ -9,29 +9,53 @@
     <canvas id="mycanvas" width="500" height="500"></canvas>
        
      <script>
-     const ctx = document.getElementById('mycanvas').getContext('2d');
-  
-      // 画一实心圆
-      ctx.beginPath();
-      ctx.arc(100, 100, 50, 0, Math.PI * 2, true); // 绘制
-      
-      // 画一个圆弧
-      ctx.moveTo(175, 100);
-      ctx.arc(100, 100, 75, 0, Math.PI, true);   // 口(顺时针)
-      
-      // 描边路径
-      ctx.stroke();
-      
-      ctx.beginPath();
-      ctx.strokeStyle = "rgba(40, 231, 50, 0.9)";
-      ctx.moveTo(100, 100);
-      ctx.lineTo(200, 100);
-      ctx.arcTo(250, 100, 250, 150, 50);
-      ctx.lineTo(250, 300);
-      ctx.stroke();
-      
-      // 描边路径
-      ctx.stroke();
+       const ctx = document.getElementById('mycanvas').getContext('2d');
+       
+       let canvasW = 500;
+       let canvasH = 500;
+       let x = 0;
+       let y = 0;
+       
+       
+       
+       ctx.translate(250, 250); // 移动原点
+       
+       
+       
+       function drawArc(x, y, r) {
+         ctx.beginPath();
+         ctx.arc(x, y, r, 0, Math.PI * 2, true); // 绘制
+         ctx.stroke();
+       }
+       
+       function drawT() {
+         ctx.strokeStyle = "rgba(40, 231, 50, 0.9)";
+         drawArc(0, 0, 100);
+         
+         ctx.save();
+         
+         ctx.strokeStyle = "rgba(223, 114, 114, 0.9)";
+         drawArc(0, 100, 20);
+         
+         ctx.restore()
+         drawArc(0, -100, 20);
+       }
+       
+       let rotateX = 0
+       function loop() {
+         console.log("loop", rotateX);
+         ctx.clearRect(-250,-250,500,500);
+         rotateX ++;
+         ctx.rotate(Math.PI*2/360 * rotateX); // 角度
+         drawT()
+         
+         if (rotateX < 100) {
+            window.requestAnimationFrame(loop);
+         }
+       }
+       // 启用
+       window.requestAnimationFrame(loop);
+     
      </script>
 
 	</body>
