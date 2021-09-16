@@ -1,0 +1,23 @@
+{
+  "name": "Blog",
+  "version": "1.0.0",
+  "description": "```js {   project: 'Blog',   author: 'amujoe',   create_time: '2019.10.1' } ```",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/amujoe/Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amujoe/Blog/issues"
+  },
+  "homepage": "https://github.com/amujoe/Blog#readme"
+}
