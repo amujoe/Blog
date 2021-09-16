@@ -5,7 +5,6 @@
 > 废话不多说,  客官进到这里都是来找干货的
 
 
-
 #### 数据缓存解决问题:
 
 **加载页面时, 先请求数据, 在渲染页面, 页面就会有短暂的闪屏,** * // 当然第一次加载除外*
@@ -28,13 +27,13 @@
 
 代码示例:
 
-1.
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-7cf5e53051af7529.png)
+1. 
+![img](https://img-crs.vchangyi.com//goods16309810406250.png)
 
 2. 
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-9b6c16358b9605a7.png)
+![img](https://img-crs.vchangyi.com//goods16309810406441.png)
 
 请求接口,  返回的数据, 在赋值的同时写入缓存
 
@@ -43,7 +42,6 @@
 将数据存储在本地缓存中指定的 key 中。会覆盖掉原来该 key 对应的内容。数据存储生命周期跟小程序本身一致，即除用户主动删除或超过一定时间被自动清理，否则数据都一直可用。单个 key 允许存储的最大数据长度为 1MB，所有数据存储上限为 10MB。
 
 **开发小伙伴要合理运用哦**
-
 
 
 [原文链接](https://www.jianshu.com/p/e9e9904e87fb)

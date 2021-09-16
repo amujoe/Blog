@@ -1,6 +1,5 @@
 <!-- 这里是配置侧边栏的地方 -->
 
-* [写在开头](/main/other/first.md)
 * 小程序的那些事
   * [小程序](/main/miniprogram/mini00.md)
   * [模版消息升级](/main/miniprogram/mini01.md)
@@ -17,7 +16,6 @@
    * [canvas基础之扫盲篇](/main/canvas/canvas03.md)
    * [canvas基础之绘制路径](/main/canvas/canvas04.md)
    * [canvas动画之基础篇](/main/canvas/canvas05.md)
-* [常见问题](/QA/js-qa01.md)
 * git 开发手册
   * [git](/main/git/git00.md)
   * [指北手册](/main/git/git01.md)
@@ -39,6 +37,8 @@
   * [搭建网站](/main/web/web01.md)
   * [docsify 搭建博客](/main/web/docsify/docsify01.md)
   * [gitbook 搭建博客](/main/web/gitbook/gitbook01.md)
+* [常见问题](/QA/js-qa01.md)
+* [收藏夹](/collection/collection01.md)
 * [写在结尾](/main/other/end.md)
 
 

@@ -16,11 +16,11 @@
 
 在下左木子, 接下来给大家讲解如何运用分包. 废话不多说, 咱看图! 保你看完明明白白:
 
-![](https://upload-images.jianshu.io/upload_images/2319334-217c70221ba6f175.png)
+![](https://img-crs.vchangyi.com//goods16309822162860.png)
 
-![](https://upload-images.jianshu.io/upload_images/2319334-16253786c66094ae.png)
+![](https://img-crs.vchangyi.com//goods16309822163031.png)
 
-![](https://upload-images.jianshu.io/upload_images/2319334-93d6061955bca0c6.png)
+![](https://img-crs.vchangyi.com//goods16309822163082.png)
 
 没明白了吗? 不明白再看一遍
 

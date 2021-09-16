@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>油腻大叔的开发手册</title>
+  <title>大叔的手册</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -33,9 +33,9 @@
     //  gitalk.render('gitalk-container')
      
     window.$docsify = {
-      name: '油腻大叔的开发手册', // 文章标题
+      name: '大叔的手册', // 文章标题
       repo: 'https://github.com/amujoe', // 配置仓库地址, 页面右上角渲染一个github 挂件
-      coverpage: true, // 封面图配置
+      // coverpage: true, // 封面图配置
       loadNavbar: true, // 导航配置
       loadSidebar: true, // 侧边导航 
       subMaxLevel: 3, // h2、h3 自动生成侧边导航
@@ -44,6 +44,8 @@
       },
       // disqus: 'shortname', // 评论
       search: 'auto',
+      auto2top: true, // 切换页面, 自动返回顶部
+      topMargin: 40, // 滚动到顶部, 距离顶部距离
       // ...
       tabs: {
         persist    : true,      // default

@@ -1,5 +1,6 @@
 # onShareAppMessage 从分享朋友到分享朋友圈 onShareTimeline, 踩坑之旅
 
+#### <a href="https://developers.weixin.qq.com/community/develop/article/doc/00082e45b549e84b38ba39fa151013">原文链接</a>
 
 
 > 艳阳高照 和风细雨的日子里, 你是否也为分享朋友圈如何传参而焦虑烦躁? 端起你的枸杞菊花茶, 边喝边看
@@ -28,11 +29,10 @@
 
 前置条件:
 
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAURUA8w9alQBibCKdFZicQggl2xZJveTZnLCxOxQJdF3rAsgp5HiceOumaA/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804851620.png)
 
 直接上代码:
-
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAUWGrdh9BwVNYBTFFOhNeicB1FQwWWlk4a3k0NRQB8aWHm0L4t1MNq84w/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804851721.png)
 
 找一步安卓手机, 扫码立显; 做为一个前端小菜, 我脚的走到这步, 应该木有一丁点儿问题! 如果你实现不出来, 那就回归到田野般的生活中找找赶脚
 
@@ -44,11 +44,11 @@
 
 传参数方式是酱紫的:
 
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAUUXCXJ7Oq9CszaQznhOqw5SRMaEoILwzdzKHs66Eo5fkChPSaTeKLUQ/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804851752.png)
 
 代码是酱紫的:
 
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAUPRBlARXH5wqCkCicXdEs58Gd5XbpfBgSbLlYCedscobVN9VvILnjktA/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804851803.png)
 
 接收参数: onLoad(option) , 直接就可以拿到参数对象, 点一点就就出来, 亲测可用.
 
@@ -56,10 +56,11 @@
 
 众所周知, 分享的页面, 在朋友圈打开是“单页面模式”, 那就收到以下限制:
 
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAU4yErN5zf8S1lBejqe8pwVFth72MpaiaJib3iax3phdwc4NibdaezoC84eQ/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804851934.png)
 
 需要开发且记且珍惜. 可以根据场景值来判断页面来源
 
-![img](http://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvYkjQicWNEBFcGtQzs8BCEAUubylf076g3qy1GphiapB58QDdZBicvfnou4YW3SibxbGZz3POlo4eSgdw/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309804852015.png)
 
 **未完待续, 有任何问题都可以找留言(包括如何找对象)**
+

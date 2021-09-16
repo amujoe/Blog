@@ -1,5 +1,5 @@
 # wx.requestSubscribeMessage 小程序模版消息升级为订阅消息
-
+<a href="https://developers.weixin.qq.com/community/develop/article/doc/000060b0950b80340b990c9c856413">原文链接</a>
 
 
 > 在这个寒冷的冬日里, 你是否也因小程序模版消息升级为订阅消息而苦逼? 端起你的枸杞菊花茶, 边喝边看
@@ -28,15 +28,15 @@
 
 
 
-![](https://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvba2Luv90zKicvhDudjyafLZsXInY3EcyHf83niasNlgK5UfmvhEFIPYQtLicQaxDnXQuyfb8fiaFdhaw/0?wx_fmt=png)
+![](https://img-crs.vchangyi.com//goods16309801895000.jpeg)
 
 **撸起袖子就是干**
 
 小手一抖, 代码全有
-![img](https://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvba2Luv90zKicvhDudjyafLZnuHbRVicXAfvHyXPumicSBhzPr76VKAOeE24V6GxK6x0hF38s1yE2uDA/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309800670230.png)
 
 屏幕一点, 效果立显
-![img](https://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvba2Luv90zKicvhDudjyafLZrdNOF4kSKhwrt6shqtIOR1MgcLicr4RanNwNy2KKqo8LqOibgmOjkp6w/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309802455180.jpeg)
 
 友情提示:
 
@@ -53,7 +53,7 @@
 操作步骤: 右上角点点点, 》 设置 》订阅消息
 效果一目了然
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/ScjMzsiaicOvba2Luv90zKicvhDudjyafLZ1ROXX814ycSxDIsVFtm3eGHJCFzqHBPiapI6p8gMuuzibH1h0WetfFUg/0?wx_fmt=png)
+![img](https://img-crs.vchangyi.com//goods16309802674420.jpeg)
 
 前方高能:
 **设置里的订阅消息, 它此生的标签是 “总是保持以上选择, 不再询问”, 不管是你允许还是拒绝, 都不会在弹框里再看到**

@@ -100,34 +100,34 @@
 
 1.  当前页面json 设置配置文件
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-18b51e538fee821f.png)
+![img](https://img-crs.vchangyi.com//goods16309819802460.png)
 
-2. 自定义导航栏组件
+1. 自定义导航栏组件
 
 wxml
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-3857c705601f89fb.png)
+![img](https://img-crs.vchangyi.com//goods16309819802631.png)
 
 js
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-241854b8a996e31b.png)
+![img](https://img-crs.vchangyi.com//goods16309820320250.png)
 
-3. app.js 获取手机型号, 判断是否展示自定义菜单,  并兼容刘海屏,
+1. app.js 获取手机型号, 判断是否展示自定义菜单,  并兼容刘海屏,
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-5f1391919ff4720c.png)
+![img](https://img-crs.vchangyi.com//goods16309820320371.png)
 
 4. 当前页显示隐藏自定义导航栏
 
 wxml
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-d6c43b52b98495ce.png)
+![img](https://img-crs.vchangyi.com//goods16309820707970.png)
 
 js
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-3c7dd20df3afeea0.png)
+![img](https://img-crs.vchangyi.com//goods16309820708151.png)
 
 
 
-5. 效果展示
+1. 效果展示
 
 ​    此处有个二维码

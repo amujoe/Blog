@@ -32,7 +32,9 @@
 >
 > [3w, 3L, 2019]
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-d543889f7c134a4d.png)
+
+![img](https://img-crs.vchangyi.com//goods16309825884310.png)
+
 
 默认数据
 
@@ -44,7 +46,7 @@
 >
 > 但是出现了以下情况：（实线边框代表组合无法匹配到商品）
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-62d5f835e2cdbb7d.png)
+![img](https://img-crs.vchangyi.com//goods16309825884431.png)
 
 > 那是以为我看在对比 sku 库的时候，之对比了三条完整 sku。
 >
@@ -70,16 +72,14 @@
 
 献上阿木写的取冥集的方法：
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-4db9589e5d2e4b9f.png)
+![img](https://img-crs.vchangyi.com//goods16309825884482.png)
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-9fa3409c0d699519.png)
+![img](https://img-crs.vchangyi.com//goods16309825884543.png)
 
 说的时候用名称，判断时候还是需要用 ID 的，ID 唯一，才是硬道理
 
 
-
 有了这个大集合，就不怕不怕啦。
-
 
 
 > 以下情况：
@@ -90,7 +90,8 @@
 >
 > ​    判断 2018 是否可点？ 拿 1L - 2018 在集合里查找是否存在
 
-![img](https://upload-images.jianshu.io/upload_images/2319334-9915915635f160b2.png)
+
+![img](https://img-crs.vchangyi.com//goods16309825884594.png)
 
 啊哦，这样就完美解决咯！
 
