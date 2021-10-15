@@ -16,6 +16,8 @@
    * [canvas基础之扫盲篇](/main/canvas/canvas03.md)
    * [canvas基础之绘制路径](/main/canvas/canvas04.md)
    * [canvas动画之基础篇](/main/canvas/canvas05.md)
+* css
+   * [css 动效那些事](/main/styles/css01.md)
 * git 开发手册
   * [git](/main/git/git00.md)
   * [指北手册](/main/git/git01.md)

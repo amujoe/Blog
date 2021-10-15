@@ -1,4 +1,4 @@
 # 小程序开发
 
-对于一个前端来说, 没有开发过小程序, 确实很过分
+<div style="text-align: center; font-size: 20px; font-weight: bold">“再小的个体, 也有自己的品牌”</div>
 
