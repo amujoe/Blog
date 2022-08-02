@@ -37,6 +37,7 @@
    * [简介](/main/markdown/md01.md)
    * [基础语法](/main/markdown/md02.md)
    * [表格](/main/markdown/md03.md)
+* [技术点总结](/share/share01.md)
 * 网站
   * [搭建网站](/main/web/web01.md)
   * [docsify 搭建博客](/main/web/docsify/docsify01.md)
