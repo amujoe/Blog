@@ -26,6 +26,7 @@
 * vue3
    * [开始](/main/vue/vue3-01.md)
    * [插槽的使用](/main/vue/vue3-02.md)
+   * [vite+vue3+ts环境搭建](/main/vue/vite-01.md)
 * TypeScripe
    * [简述](/main/ts/ts01.md)
    * [基础类型](/main/ts/ts02.md)
