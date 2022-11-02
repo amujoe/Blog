@@ -17,5 +17,6 @@
    * [表格](./markdown/md03.md)
 * [搭建网站](./web/web01.md)
    * [gitbook 搭建博客](./web/gitbook/gitbook01.md)
+* [思想工作](./think/think01.md)
 * [写在结尾](./other/end.md)
 

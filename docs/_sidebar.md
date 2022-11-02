@@ -27,6 +27,12 @@
    * [开始](/main/vue/vue3-01.md)
    * [插槽的使用](/main/vue/vue3-02.md)
    * [vite+vue3+ts环境搭建](/main/vue/vite-01.md)
+* vite
+   * [vite](/main/vite/vite01.md)
+   <!-- * [vite2](/main/vite/vite-01.md) -->
+* pinia
+   * [初识 Pinia](/main/pinia/pinia01.md)
+   * [相知 Pinia](/main/pinia/pinia02.md)
 * TypeScripe
    * [简述](/main/ts/ts01.md)
    * [基础类型](/main/ts/ts02.md)
