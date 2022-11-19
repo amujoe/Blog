@@ -45,12 +45,13 @@
    * [基础语法](/main/markdown/md02.md)
    * [表格](/main/markdown/md03.md)
 * [技术点总结](/share/share01.md)
+* [常见问题](/QA/js-qa01.md)
+* [收藏夹](/collection/collection01.md)
+* [写在骚年](./article/)
 * 网站
   * [搭建网站](/main/web/web01.md)
   * [docsify 搭建博客](/main/web/docsify/docsify01.md)
   * [gitbook 搭建博客](/main/web/gitbook/gitbook01.md)
-* [常见问题](/QA/js-qa01.md)
-* [收藏夹](/collection/collection01.md)
 * [写在结尾](/main/other/end.md)
 
 
