@@ -3,3 +3,4 @@
 * [Composition—API VS Options-Api](/share/share03.md)
 * [Reactive VS Ref](/share/share04.md)
 * [ref、toRef、toRefs](/share/share05.md)
+* [`()=>{}` 与 `()=>({})`](/share/share06.md)

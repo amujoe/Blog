@@ -3,7 +3,7 @@
 
 # 如何使用 pinia
 
-## 什么是 Pinia
+## Pinia
 
 ## 如何使用
 
@@ -19,6 +19,12 @@
 2. 使用自己 getters 的函数返回值
 3. 使用别的 getters 的函数返回值
 4. 如何给 getters 传参数
+
+## action 使用
+1. action 同步修改 state 的值（同步）
+2. action 通过传参数，修改 state 的值（同步）
+3. action 支持异步任务
+
 
 
 # 如何实现一个 pinia
