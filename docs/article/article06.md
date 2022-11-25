@@ -14,4 +14,5 @@
 那一天我无心睡眠<br/>
 那一刻我在 寻找自己 .....<br/>
 <br/>
-![自画像](http://a2.qpic.cn/psb?/V14N7C3e14WfJn/E7h.Y35JJOmT6lHtRaiV41WYZXCFS35G452aQkXUFwU!/b/dGZz9Z37IAAA&ek=1&kp=1&pt=0&bo=WAIgAwAAAAABAF4!&tl=3&su=0220103265&tm=1669348800&dis_t=1669349178&dis_k=e81355119cc23e5b8f262a4d9c0121d9&sce=0-12-12&rf=2-9)
+
+<img src="./../image/zhx01.jpeg" width="400px">
