@@ -7,6 +7,7 @@
   * [2017年度总结](/article/summary-2017.md)
   * [2018年上半年](/article/summary-201801.md)
   * [2018有成果 2019更出彩](/article/summary-201802.md)
+  * [2022 变化中求稳](/article/summary-2022.md)
 * 那些年写过的湿
   * [不争气的泪, 你的美](/article/article02.md)
   * [want](/article/article03.md)
