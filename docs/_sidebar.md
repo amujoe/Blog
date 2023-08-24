@@ -8,6 +8,8 @@
   * [小程序单页面自定义导航栏](/main/miniprogram/mini03.md)
   * [分包加载](/main/miniprogram/mini05.md)
   * [模拟京东非淘宝的sku选择](/main/miniprogram/mini06.md)
+  * [原生的味道更醇](/main/miniprogram/mini07.md)
+  * [隐私协议](/main/miniprogram/mini08.md)
 * 小程序 · 云开发
    * [简述](/main/cloud/cloud01.md)
 * Canvas
