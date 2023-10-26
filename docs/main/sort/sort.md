@@ -9,4 +9,9 @@
 
 
 
+ ## 快速通道
+
+ ### [归并排序](/main/sort/sort02.md)
+ ### [插入排序](/main/sort/sort03.md)
+ 
 

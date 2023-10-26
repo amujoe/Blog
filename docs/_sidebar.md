@@ -35,7 +35,9 @@
    * [相知 Pinia](/main/pinia/pinia02.md)
 
 * [排序](/main/sort/sort.md)
-   * [归并算法](/main/sort/sort02.md)
+   * [归并排序](/main/sort/sort02.md)
+   * [插入排序](/main/sort/sort03.md)
+   * [希尔排序](/main/sort/sort04.md)
 * TypeScripe
    * [简述](/main/ts/ts01.md)
    * [基础类型](/main/ts/ts02.md)
