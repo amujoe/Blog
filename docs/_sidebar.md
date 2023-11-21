@@ -49,6 +49,7 @@
    * [表格](/main/markdown/md03.md)
 <!-- * vite -->
 * [哟哟切克闹，vite环境来一套](/main/vite/vite01.md)
+* [前端知识体系](/main/other/tixi.md)
 <!-- * js -->
 * [前端代码优化](/main/js/js-design02.md)
 * [技术点总结](/share/share01.md)
