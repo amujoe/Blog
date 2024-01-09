@@ -34,10 +34,12 @@
    * [初识 Pinia](/main/pinia/pinia01.md)
    * [相知 Pinia](/main/pinia/pinia02.md)
 
-* [排序](/main/sort/sort.md)
+<!-- * [排序](/main/sort/sort.md) -->
+* 算法
    * [归并排序](/main/sort/sort02.md)
    * [插入排序](/main/sort/sort03.md)
    * [希尔排序](/main/sort/sort04.md)
+   * [链表](/main/js/js-03.md)
 * TypeScripe
    * [简述](/main/ts/ts01.md)
    * [基础类型](/main/ts/ts02.md)
