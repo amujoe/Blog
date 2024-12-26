@@ -58,6 +58,7 @@
 * [常见问题](/QA/js-qa01.md)
 * [收藏夹](/collection/collection01.md)
 * [写在骚年](./article/)
+* [中年男人赚钱之道](./stock/)
 <!-- * 网站搭建 -->
 * [搭建自己的博客](/main/web/web01.md)
   <!-- * [docsify 搭建博客](/main/web/docsify/docsify01.md)
