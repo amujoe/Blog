@@ -176,9 +176,137 @@
     <!-- 上影线 -->
     <div style="position: absolute; left: 50%; top: 0px; width: 2px; height: 100px; transform: translateX(-50%); background-color: black; "></div>
     <!-- 实体 -->
-    <div style="position: absolute; left: 50%; top: 40px; width: 30px; height: 4px;background-color: #000; transform: translate(-50%);"></div>
+    <div style="position: absolute; left: 50%; top: 70px; width: 30px; height: 4px;background-color: #000; transform: translate(-50%);"></div>
     <!-- 标注 -->
-    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">弹升试探</div>
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">十字星(a)</div>
 </div>
-这是一种只有上下影线、没有实体（或实体很小）的图形。开盘价即是收盘价（或开盘价与收盘价接近），表示在交易中，股价出现高于或低于开盘价成交，
-但收盘价与开盘价相等，买方与卖方几乎势均力敌。
+
+<div style="display:inline-block;position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 0px; width: 2px; height: 100px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 30px; width: 30px; height: 4px;background-color: #000; transform: translate(-50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">十字星(b)</div>
+</div>
+
+<div style="display:inline-block;position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 0px; width: 2px; height: 100px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 50px; width: 30px; height: 4px;background-color: #000; transform: translate(-50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">十字星(c)</div>
+</div>
+
+<br/>
+<br/>
+这是一种只有上下影线、没有实体（或实体很小）的图形。开盘价即是收盘价（或开盘价与收盘价接近），表示在交易中，股价出现高于或低于开盘价成交，但收盘价与开盘价相等，买方与卖方几乎<span style="color:red">势均力敌</span><br/><br/>
+上影线越长，表示卖压越重，如图  a 所示。<br/>
+下影线越长，表示买方旺盛，如图b所示。<br/>
+上下影线看似等长的十字星，可称为转机线，在高价位或低价位，意味着出现反转。如图 c 所示<br/>
+
+
+
+## 10.⊥字形
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 2px; height:  60px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">a</div>
+</div>
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 2px; height:  40px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">b</div>
+</div>
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 2px; height:  20px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; bottom: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">c</div>
+</div>
+
+<br/>
+<br/>
+
+⊥字形又称空胜线。开盘价与收盘价、最低价相同或接近，<br/>
+
+当日交易都在开盘价以上之价位成交，并以当日最低价（开盘价）收盘，表示买方虽强，但卖方更强，买方无力再挺升，总体看卖方稍占优势，<br/>
+
+<span style="color:red">如在高价区，行情可能会下跌。</span>
+
+这种 K 线的上影线长短也能反映多空力量的强弱，通常上影线越长，多方力量越强（/*这与一般的影线判别法则有别，一般的 K 线形态中，上影线越长，代表空方力量越强*/），上影线越短，空方力量越强。
+
+⊥字形如图所示，多方力量依次下降，而空方力量依次递升
+
+## 11. T 字形
+
+T 字形又称多胜线。开盘价与收盘价、最高价相同或接近，当日交易都在开盘价以下价位成交，又以当日最高价（开盘价）收盘。<br/>
+<span style="color:red">卖方虽强，但买方实力更大，局势对买方有利，如在低价区，行情将会回升</span>。<br/>
+这种 K 线的下影线长短也能反映多空力量的强弱，通常下影线越长，空方力量越强（/*这与一般的影线判别法则有别，一般的 K 线形态中，下14K 线操盘术影线越长，代表多方力量越强*/），下影线越短，多方力量越强。<br/>
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 2px; height:  60px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">T 字线</div>
+</div>
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 2px; height:  40px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">T 字线</div>
+</div>
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 2px; height:  20px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 0; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">T 字线</div>
+</div>
+
+T 字形如图所示，多方力量依次增强，而空方力量逐渐减弱。
+
+## 12. 一字形
+这种形态也比较常见，即开盘价、收盘价、最高价、最低价在同一价位。常出现于交易非常冷清或非常狂热的市场之中，全日交易只有一档价位成交，在冷门股、热门股、庄股中，此类情形较易发生。
+
+<div style="display:inline-block; position: relative; width: 100px; height: 100px; margin: 20px;">
+    <!-- 上影线 -->
+    <div style="position: absolute; left: 50%; top: 50%; width: 0px; height:  0px; transform: translateX(-50%); background-color: black; "></div>
+    <!-- 实体 -->
+    <div style="position: absolute; left: 50%; top: 50%; width: 30px; height: 2px;background-color: #000; transform: translate(-50%, -50%);"></div>
+    <!-- 标注 -->
+    <div style="position: absolute;left: 50%;bottom: -20px;transform: translateX(-50%);font-size: 12px;">一字线</div>
+</div>
+
+
+## 总之
+阴线实体越长，越有利于下跌；<br>
+阳线实体越长，越有利于上涨；<br>
+但连续强势上涨后，谨防盛极而衰；<br>
+连续强势下跌后，可能否极泰来。<br>
+
+如果影线相对于实体来说非常小，则可以等同于没有；指向一个方向的影线越长，越不利于市场价格今后向这个方向变动。
+上下的影线同时较长，则说明多、空双方争斗剧烈，最后持平，后市不确定。
+
+十字星的出现往往是过渡信号，有时则是反转信号，它代表市场暂时失去方向感，稳健的操作方式是继续观察下一个交易日。
+
+对于 K 线的何为大、何为小、多长为长、多长为短的度量问题，没有标准的答案。不同的交易市场，如股票、外汇、期货等市场，甚至不同的交易品种，如大盘和个股、英镑和日元、金属期货和农产品期货等，这些度量标准都是不一样的。“入乡随俗，因地而宜”随着识别经验的积累，这些感性的主观识别就会形成个人经验，为实盘操作提供买卖依据
