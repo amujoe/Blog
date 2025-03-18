@@ -1,5 +1,12 @@
-<!-- 这里是配置侧边栏的地方 -->
-* [grid](/main/miniprogram/mini00.md)
+
+* [grid](/css-grid/index.md)
+* [grid-template-rows](/css-grid/grid-template-rows.md)
+* [grid-template-columns](/css-grid/grid-template-columns.md)
+* [grid-grp](/css-grid/grid-grp.md)
+* [grid-area](/css-grid/grid-area.md)
+
+
+<!-- * [---](/main/miniprogram/mini00.md)
 * [grid-area](/main/miniprogram/mini00.md)
 * [grid-auto-flow](/main/miniprogram/mini00.md)
 * [grid-auto-rows](/main/miniprogram/mini00.md)
@@ -12,4 +19,4 @@
 * [grid-template](/main/miniprogram/mini00.md)
 * [grid-template-areas](/main/miniprogram/mini00.md)
 * [grid-template-columns](/main/miniprogram/mini00.md)
-* [grid-template-rows](/main/miniprogram/mini00.md)
+* [grid-template-rows](/main/miniprogram/mini00.md) -->
