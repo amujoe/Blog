@@ -4,6 +4,8 @@
 * [grid-template-columns](/css-grid/grid-template-columns.md)
 * [grid-grp](/css-grid/grid-grp.md)
 * [grid-area](/css-grid/grid-area.md)
+* [grid-template-area](/css-grid/grid-template-area.md)
+* [grid-template](/css-grid/grid-template.md)
 
 
 <!-- * [---](/main/miniprogram/mini00.md)
